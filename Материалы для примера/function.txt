@@ -1,0 +1,14 @@
+К1 = ¬x1*¬x2*q1*q2*¬q3 v ¬x1*x2*q1*q2*¬q3
+К1min = ¬x1*q1*q2
+J1 = ¬x1*x2*¬q1*¬q2*q3 v ¬x1*x2*¬q1*¬q2*¬q3 v ¬x1*¬x2*¬q1*q2*q3
+J1min = x2*¬q1*¬q2 v ¬x1*¬x2*¬q1 *q2
+К2 = ¬x1*¬x2*¬q1*q2*q3 v ¬x1*x2*¬q1*q2*q3 v x1*¬x2*¬q1 *q2*q3 v ¬x1*¬x2*q1 *q2*¬q3 v x1*¬x2*q1 *q2*¬q3
+K2min = ¬x2*q1*q2*¬q3 v ¬q1*q2
+J2 = ¬x1*¬x2*¬q1*¬q2*q3 v ¬x1*x2*¬q1*¬q2*¬q3 v ¬x1*¬x2*q1*¬q2*q3 v x1*¬x2*q1 *¬q2*q3
+J2min = x2*¬q1*¬q2*¬q3 v ¬x1*¬x2*¬q2*q3 v ¬x2*q1*¬q2*q3
+К3 = x1*¬x2*¬q1 *¬q2*q3 v x1*¬x2*¬q1 *q2*q3 v ¬x1*¬x2*q1*¬q2*q3 v x1*¬x2*q1 *¬q2*q3
+К3min = x1*¬q1 *q3 v ¬x2*q1 *¬q2*q3
+J3 = x1*¬x2*¬q1 *¬q2*¬q3 v ¬x1*x2*q1 *q2*¬q3 v x1*¬x2*q1 *q2*¬q3
+J3min = x1*¬x2*¬q3 v x2*q1 *q2
+Y = x1*¬x2*¬q1*¬q2*¬q3 v ¬x1*x2*¬q1*q2*q3 v ¬x1*¬x2*q1*q2*¬q3 v x1*¬x2*q1 *q2*¬q3 v ¬x1*¬x2*q1 *¬q2*q3 v ¬x1*x2*q1 *¬q2*q3
+Ymin = x1*¬q3 v x2*¬q1*q2 v ¬x1*q1*q3 v ¬x1*¬x2*q1
